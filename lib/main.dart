@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                 );
               }
             },
-            child: const Text("Open WhatsApp"),
+            child: const Text("Run WhatsApp"),
           ),
         ),
       ),
