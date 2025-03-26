@@ -12,11 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: const Text('Open WhatsApp')),
+        appBar: AppBar(title: const Text('Run WhatsApp')),
         body: Center(
           child: ElevatedButton(
             onPressed: () async {
-              var whatsappNumber = "02099487362"; // Replace with actual number
+              var whatsappNumber = "+02099487362"; // Replace with actual number
               var whatsappUrl = "https://wa.me/$whatsappNumber";
 
               if (await canLaunchUrl(Uri.parse(whatsappUrl))) {
